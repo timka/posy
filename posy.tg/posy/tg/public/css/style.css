@@ -1,0 +1,320 @@
+* {
+    color: #2d5016;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 115%;
+    font-family: Arial, sans-serif;
+}
+
+em {
+    text-decoration: underline;
+}
+
+#main {
+    position: relative;
+    margin: 1% auto;
+    padding: 1%;
+    width: 70%;
+    border-width: 0;
+    background-color: #e3f4d7;
+    overflow: hidden;
+}
+
+.form-box {
+    float: right;
+    width: 76%;
+}
+.settings-bar {
+    width: 24%;
+    float: left;
+}
+
+h1, h2, h3, p {
+    margin-top: 6pt;
+    margin-left: 6pt;
+    margin-bottom: 6pt;
+}
+h1, h2, h3 {
+    color: #5aa02c;
+}
+h1 {
+    margin-top: 0;
+    font-size: 172.5%;
+}
+h2 {
+    font-size: 128%;
+}
+h3 {
+    font-size: 100%;
+}
+p, li {
+    font-size: 80%;
+}
+ul {
+    margin-left: 1.5%;
+}
+p {
+    margin-left: 4%;
+}
+.about .posy {
+    margin-left: 1.5%;
+    padding-bottom: 1.5%;
+}
+.about ul {
+    list-style-type: circle;
+}
+.about li {
+    margin-left: 5%;
+}
+
+#header {
+    margin-bottom: 2%;
+}
+#flash {
+    width: 65%;
+    font-size: 80%;
+    clear: both;
+    float: right;
+/*    text-align: right;*/
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 0;
+    margin-left: auto;
+/*    background-color: #c6e9af;*/
+    color: #2d5016;
+/*    width: 70%;*/
+}
+#nav {
+    float: right;
+    color: #8dd35f;
+}
+#nav a {
+    color: #8dd35f;
+    text-decoration: none;
+    border: none; 
+    color: inherit;
+    padding: 2px;
+}
+#nav a:hover {
+    text-decoration: underline;
+}
+#langform {
+    float: right;
+    text-align: right;
+    display: block;
+    margin-bottom: 1%;
+    color: #8dd35f;
+}
+#langform select {
+}
+.logo {
+    border-style: none;
+    display: block;
+    height: 99px;
+    width: 193px;
+    /* IE PNG hack */
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/posy-logo.png', sizingMethod='scale');
+}
+
+/* IE will ignore this*/
+.logo[class] {
+    background: url("/images/posy-logo.png") no-repeat;
+}
+
+.fielderror {
+    color: red; 
+    font-size: 75%;
+}
+
+.listform .field_list {
+    margin: 0;
+    padding: 0;
+    list-style-image: none;
+    list-style-type: none;
+    list-style-position: outside;
+}
+.listform li {
+    margin: 0;
+    padding: 0;
+    list-style-image: none;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.posyform {
+    overflow: hidden;
+
+    padding: 2%;
+
+    border-color: #c6e9af;
+    border-width: 1px;
+    border-style: solid;
+
+    background-color: #8dd35f; 
+}
+.posyform .content-text {
+    height: 180px;
+    float: right;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 2%;
+
+    font-size: 200%;
+    color: #2d5016;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c6e9af;
+}
+.posyform .submit-button {
+    height: 75px;
+    width: 30%;
+    float: right;
+    padding: 0;
+
+
+    border-color: #e3f4d7;
+    border-width: 1px;
+    border-style: solid;
+
+    background-color: #c6e9af; 
+
+    color: #2d5016;
+    font-size: 160%;
+}
+.posyform .submit-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.settingsform {
+    padding: 2%;
+
+/*    border-color: #8dd35f;*/
+    border-color: #c6e9af;
+    border-width: 1px;
+    border-style: solid;
+
+/*    background-color: #c6e9af;*/
+    background-color: #8dd35f; 
+}
+
+.settings {
+    background-color: #e3f4d7;
+
+    border-style: solid;
+    border-color: #c6e9af;
+    border-width: 1px;
+
+    margin-bottom: 1.4%;
+    padding: 1.4%;
+    
+    clear: both;
+
+}
+.settings legend {
+    border-color: #c6e9af;
+    border-style: solid;
+    background-color: #c6e9af;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-left: 0.7%;
+    padding-right: 0.7%;
+}
+.settings label {
+    font-size: 75%;
+    line-height: 1.6;
+    vertical-align: baseline;
+    margin-right: 4px;
+}
+.settings .fieldhelp {
+    font-size: 10pt;
+    font-size: 75%;
+}
+.settings input {
+    font-size: 79%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c6e9af;
+}
+.note {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 63%;
+    overflow: hidden;
+    clear: both;
+
+    padding: 16px;
+    color: #5aa02c;
+}
+.clear-settings {
+    float: right;
+}
+.about {
+    margin-left: 0.5em;
+    margin-right: 4em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+.settings-bar li, .settings-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.settings-bar ul {
+    list-style: none;
+    margin-right: 4%;
+    padding: 0;
+}
+.settings-bar li {
+    text-align: right; 
+    line-height: 1.6;
+
+    padding-right: 6%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.settings-bar .current {
+    /*
+    background-color: #8dd35f; 
+    */
+    font-weight: bold;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+/*    border-color: #8dd35f;*/
+    border-color: #c6e9af;
+    /*
+    border-width: 1px 0 1px 1px;
+    */
+}
+.settings-bar a {
+    text-decoration: none;
+}
+.settings-bar a.disabled {
+    text-decoration: line-through;
+}
+#footer {
+    height: 5%;
+    position: relative;
+    bottom: -3%;
+    margin-top: 1%;
+    clear: both;
+}
+#footer ul {
+    list-style: none;
+    text-align: left;
+}
+#footer li, #footer a {
+    color: #c6e9af;
+}
+#footer li {
+    font-weight: bold;
+    display: inline;
+}
+#footer a {
+    text-decoration: none;
+}

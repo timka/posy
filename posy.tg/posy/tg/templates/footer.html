@@ -1,0 +1,11 @@
+<html xmlns:py="http://genshi.edgewall.org/"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      py:strip="">
+<py:def function="footer">
+  <div id="footer">
+    ${tg.g.langform({'lang': tg.g.get_lang()}, action=tg.url('/lang'))}
+    <ul><li>Copyright &#x00a9; 2008 <a href="http://timka.org">Timur Izhbulatov</a></li></ul>
+  </div>
+</py:def>
+
+</html>

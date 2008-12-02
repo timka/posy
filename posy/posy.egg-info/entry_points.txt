@@ -1,0 +1,6 @@
+
+    [posy.services]
+    twitter = posy.services.twitter:Twitter
+    plurk = posy.services.plurk:Plurk
+    lj = posy.services.lj:LJ
+    

@@ -1,0 +1,15 @@
+<html xmlns:py="http://genshi.edgewall.org/"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      py:strip="">
+<py:def function="header">
+  <div id="header">
+    <div id="nav">
+      <a href="${tg.url('/')}">Home</a>
+      <a href="${tg.url('/settings')}">Settings</a>
+      <a href="${tg.url('/about')}">About</a>
+    </div>
+    <div id="flash" py:if="tg_flash" class="flash" py:content="tg_flash"></div>
+    <a href="${tg.url('/')}" class="logo"></a>
+  </div>
+</py:def>
+</html>

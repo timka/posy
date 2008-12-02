@@ -1,0 +1,41 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:py="http://genshi.edgewall.org/"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<xi:include href="header.html" />
+<xi:include href="footer.html" />
+<xi:include href="master.html" />
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" py:replace="''"/>
+  <title>Settings</title>
+  <style type="text/css">
+  </style>
+</head>
+
+<body>
+  <div class="form-box">
+  ${tmpl_context.form(form_data, **form_args)}
+  <div class="note">Note. Password input fields are not filled automatically by the application for security reasons. Please use your browser's password manager.</div>
+  </div>
+  <div class="settings-bar">
+    <ul>
+      <py:for each="item, selected in menu">
+        <li py:attrs="selected and {'class': 'current'}">
+          <span py:if="item.is_configured">&bull;</span>
+          <py:with vars="aattrs = not item.is_enabled and {'class': 'disabled'}">
+              <a py:if="item.is_configured" py:attrs="aattrs"
+                 title="Set up" href="${item.url}">${item.display_name}</a>
+              <a py:if="not item.is_configured" py:attrs="aattrs"
+                 title="Not set up" href="${item.url}">${item.display_name}</a>
+          </py:with>
+        </li>
+      </py:for>
+    </ul>
+  </div>
+</body>
+
+</html>

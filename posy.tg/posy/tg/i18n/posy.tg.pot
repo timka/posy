@@ -1,0 +1,334 @@
+# Translations template for posy.tg.
+# Copyright (C) 2008 ORGANIZATION
+# This file is distributed under the same license as the posy.tg project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: posy.tg 0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2008-10-14 11:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.2\n"
+
+#: posy/tg/controllers/root.py:41
+msgid "Message sent"
+msgstr ""
+
+#: posy/tg/controllers/root.py:147
+msgid "All settings cleared"
+msgstr ""
+
+#: posy/tg/controllers/root.py:256
+msgid "Changes saved"
+msgstr ""
+
+#: posy/tg/controllers/root.py:273
+msgid "Settings cleared"
+msgstr ""
+
+#: posy/tg/lib/decorators.py:9
+msgid "You need to set up at least one service before you can use the application."
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:116
+msgid "Language"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:117
+msgid "Application language"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:156
+msgid "Press Alt+Shift+S to submit form"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:157
+msgid "Send!"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:195
+msgid "Username"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:196
+msgid "Your account's username for this service"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:198
+msgid "Password"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:199
+msgid ""
+"Posy does not fill password fields on web pages for security reasons. This "
+"field will be applied only if not empty value is entered. Use your browser's "
+"password manager, if you want this field to be filled automatically."
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:205
+msgid "Enable"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:206
+msgid "Enable sending messages to this service"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:222
+msgid "General"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:226
+msgid "Email (optional)"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:227
+msgid ""
+"Optional email for sending debugging output. Fill this field if you wish to "
+"receive weird emails :)"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:259
+msgid "Clear Settings"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:260
+msgid "Press Alt+Shift+C to clear settings on this page"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:272
+msgid "Apply"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:274
+msgid "Press Alt+Shift+A to apply settings"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:278
+msgid "Clear All Settings"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:279
+msgid "Clear general and all service settings"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:280
+msgid "Really clear ALL settings?"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:314
+msgid "Skip"
+msgstr ""
+
+#: posy/tg/lib/widgets/__init__.py:315
+msgid "Go to next unconfigured service"
+msgstr ""
+
+#: posy/tg/templates/about.html:13
+msgid "About Posy"
+msgstr ""
+
+#: posy/tg/templates/about.html:18
+msgid ""
+"Posy is a simple and secure web application for updating (micro-)blogs and "
+"social networks quickly. For instance, it can be used to update Twitter and "
+"Plurk simultaneously with the same content."
+msgstr ""
+
+#: posy/tg/templates/about.html:20
+msgid "Features"
+msgstr ""
+
+#: posy/tg/templates/about.html:22
+msgid "No Registration"
+msgstr ""
+
+#: posy/tg/templates/about.html:23
+msgid ""
+"You don't need to register an account in order to use Posy. That is, you "
+"remain anonymous."
+msgstr ""
+
+#: posy/tg/templates/about.html:25
+msgid "Security"
+msgstr ""
+
+#: posy/tg/templates/about.html:27
+msgid "Posy does"
+msgstr ""
+
+#: posy/tg/templates/about.html:27
+msgid "not"
+msgstr ""
+
+#: posy/tg/templates/about.html:27
+msgid "store passwords on server"
+msgstr ""
+
+#: posy/tg/templates/about.html:28
+msgid ""
+"Passwords are kept in browser in an encrypted session cookie which can only "
+"be decrypted by the server's secret key"
+msgstr ""
+
+#: posy/tg/templates/about.html:29
+msgid ""
+"If necessary, all session data including usernames and passwords can be "
+"cleared by simply removing the cookie from your browser"
+msgstr ""
+
+#: posy/tg/templates/about.html:30
+msgid ""
+"Secure connection (HTTPS) is used for communication with services where "
+"possible (not supported by Plurk)"
+msgstr ""
+
+#: posy/tg/templates/about.html:31
+msgid "Secure challenge-response authentication scheme is used for LiveJournal"
+msgstr ""
+
+#: posy/tg/templates/about.html:34
+msgid "Supported Services"
+msgstr ""
+
+#: posy/tg/templates/about.html:36
+msgid "Twitter"
+msgstr ""
+
+#: posy/tg/templates/about.html:37
+msgid "Plurk"
+msgstr ""
+
+#: posy/tg/templates/about.html:38
+msgid "LiveJournal"
+msgstr ""
+
+#: posy/tg/templates/about.html:41
+msgid "Local Time Support"
+msgstr ""
+
+#: posy/tg/templates/about.html:42
+msgid ""
+"Posy automatically takes current local time from your browser when you send a"
+" message. For example, if you use Posy from Tokyo at 9:00 AM JST, and the "
+"server time is 1:00 AM UTC, your message will be timestamped as 9:00 AM by "
+"the services which support this (Plurk, LiveJournal)."
+msgstr ""
+
+#: posy/tg/templates/about.html:44
+msgid "Internationalization"
+msgstr ""
+
+#: posy/tg/templates/about.html:45
+msgid "Currently, the following languages are availabe:"
+msgstr ""
+
+#: posy/tg/templates/about.html:47
+msgid "English"
+msgstr ""
+
+#: posy/tg/templates/about.html:48
+msgid "Russian"
+msgstr ""
+
+#: posy/tg/templates/about.html:50
+msgid "Posy can be fairly easily translated to other languages."
+msgstr ""
+
+#: posy/tg/templates/about.html:52
+msgid "Open Source"
+msgstr ""
+
+#: posy/tg/templates/about.html:53
+msgid ""
+"Posy is an open source project. This means that its source code is accessible"
+" to anyone and can be freely distributed."
+msgstr ""
+
+#: posy/tg/templates/about.html:55
+msgid "Service Plugins"
+msgstr ""
+
+#: posy/tg/templates/about.html:56
+msgid "Developers can add support for other services by writing plugins."
+msgstr ""
+
+#: posy/tg/templates/about.html:58
+msgid "Reusable Backend Library"
+msgstr ""
+
+#: posy/tg/templates/about.html:59
+msgid ""
+"The web application is built upon a reusable backend library which allows "
+"developers to add Posy's functionality to their applications using a simple "
+"API. For example, one can write a command line application."
+msgstr ""
+
+#: posy/tg/templates/about.html:61
+msgid "Planned Features"
+msgstr ""
+
+#: posy/tg/templates/about.html:63
+msgid "More services"
+msgstr ""
+
+#: posy/tg/templates/about.html:64
+msgid "Automatic URL shortening"
+msgstr ""
+
+#: posy/tg/templates/about.html:65
+msgid "Friend-only messages"
+msgstr ""
+
+#: posy/tg/templates/about.html:66
+msgid "Service groupping (blogs, micro-blogs, etc.)"
+msgstr ""
+
+#: posy/tg/templates/about.html:67
+msgid "Public API"
+msgstr ""
+
+#: posy/tg/templates/footer.html:7
+msgid "Copyright © 2008"
+msgstr ""
+
+#: posy/tg/templates/footer.html:7
+msgid "Timur Izhbulatov"
+msgstr ""
+
+#: posy/tg/templates/header.html:7
+msgid "Home"
+msgstr ""
+
+#: posy/tg/templates/header.html:8 posy/tg/templates/settings.html:14
+msgid "Settings"
+msgstr ""
+
+#: posy/tg/templates/header.html:9
+msgid "About"
+msgstr ""
+
+#: posy/tg/templates/index.html:13
+msgid "Posy"
+msgstr ""
+
+#: posy/tg/templates/settings.html:22
+msgid ""
+"Note. Password input fields are not filled automatically by the application "
+"for security reasons. Please use your browser's password manager."
+msgstr ""
+
+#: posy/tg/templates/settings.html:30
+msgid "Set up"
+msgstr ""
+
+#: posy/tg/templates/settings.html:32
+msgid "Not set up"
+msgstr ""
+

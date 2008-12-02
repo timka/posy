@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:py="http://genshi.edgewall.org/"
+      xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<xi:include href="header.html" />
+<xi:include href="footer.html" />
+<xi:include href="master.html" />
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" py:replace="''"/>
+  <title>About Posy</title>
+</head>
+
+<body>
+  <div class="about">
+    <p class="posy">Posy is a simple and secure web application for updating (micro-)blogs and social networks quickly. For instance, it can be used to update Twitter and Plurk simultaneously with the same content.</p>
+
+    <h2>Features</h2>
+
+    <h3>No Registration</h3>
+    <p>You don't need to register an account in order to use Posy. That is, you remain anonymous.</p>
+
+    <h3>Security</h3>
+    <ul>
+        <li>Posy does <em>not</em> store passwords on server</li>
+        <li>Passwords are kept in browser in an encrypted session cookie which can only be decrypted by the server's secret key</li>
+        <li>If necessary, all session data including usernames and passwords can be cleared by simply removing the cookie from your browser</li>
+        <li>Secure connection (HTTPS) is used for communication with services where possible (not supported by Plurk)</li>
+        <li>Secure challenge-response authentication scheme is used for LiveJournal</li>
+    </ul>
+
+    <h3>Supported Services</h3>
+    <ul>
+        <li>Twitter</li>
+        <li>Plurk</li>
+        <li>LiveJournal</li>
+    </ul>
+
+    <h3>Local Time Support</h3>
+    <p>Posy automatically takes current local time from your browser when you send a message. For example, if you use Posy from Tokyo at 9:00 AM JST, and the server time is 1:00 AM UTC, your message will be timestamped as 9:00 AM by the services which support this (Plurk, LiveJournal).</p>
+
+    <h3>Internationalization</h3>
+    <p>Currently, the following languages are availabe:</p>
+    <ul>
+        <li>English</li>
+        <li>Russian</li>
+    </ul>
+    <p>Posy can be fairly easily translated to other languages.</p>
+
+    <h3>Open Source</h3>
+    <p>Posy is an open source project. This means that its source code is accessible to anyone and can be freely distributed.</p>
+
+    <h3>Service Plugins</h3>
+    <p>Developers can add support for other services by writing plugins.</p>
+
+    <h3>Reusable Backend Library</h3>
+    <p>The web application is built upon a reusable backend library which allows developers to add Posy's functionality to their applications using a simple API. For example, one can write a command line application.</p>
+
+    <h2>Planned Features</h2>
+    <ul>
+        <li>More services</li>
+        <li>Automatic URL shortening</li>
+        <li>Friend-only messages</li>
+        <li>Service groupping (blogs, micro-blogs, etc.)</li>
+        <li>Public API</li>
+    </ul>
+  </div>
+</body>
+
+</html>
