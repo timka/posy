@@ -18,6 +18,10 @@ port = 8080
 use = egg:posy.tg
 full_stack = true
 cache_dir = %(here)s/data
+
+# Comment this to disable redirects to HTTPS
+posy.tg.redirect_to_https = True
+
 beaker.session.key = posy.tg
 beaker.session.type = cookie
 # The cookie never expires ...
