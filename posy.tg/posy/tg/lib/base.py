@@ -14,6 +14,8 @@ import formencode.api
 
 log = logging.getLogger(__name__)
 
+# XXX All this stuff is only to fix ToscaWidgets/FormEncode i18n in TG2
+# http://trac.turbogears.org/ticket/1999
 
 def set_formencode_translation(languages):
     '''
@@ -183,7 +185,6 @@ class BaseController(TGController):
             return params
 
         return new_params
-
 
     def __call__(self, environ, start_response):
         """Invoke the Controller"""
