@@ -1,5 +1,6 @@
 import logging
 import urlparse
+from paste.deploy.converters import asbool
 
 import tg
 from pylons.i18n import ugettext as _
@@ -53,7 +54,7 @@ class https(object):
         self.redirect = redirect 
 
     def __call__(self, func):
-        if not tg.config.get('posy.tg.redirect_to_https'):
+        if not asbool(tg.config.get('posy.tg.redirect_to_https')):
             return func
         def check_request_url_scheme(*args, **kw):
             if tg.request.headers.get('X-Forwarded-Scheme', '').lower() == 'https':
