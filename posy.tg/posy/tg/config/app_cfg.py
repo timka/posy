@@ -16,7 +16,7 @@ class PosyAppConfig(AppConfig):
         return app
 
     # XXX Fix for Genshi i18n in TG2
-    # http://trac.turbogears.org/ticket/2002
+    # http://trac.turbogears.org/ticket/2001
     def setup_default_renderer(self):
         from genshi.filters import Translator
 
@@ -47,7 +47,7 @@ base_config.renderers = []
 base_config.package = posy.tg
 
 # XXX This is required to be True (the default) until dotted notation
-# implemented for new TG2 Pylons-style renderers 
+# is implemented for new TG2 Pylons-style renderers
 # http://trac.turbogears.org/ticket/1942
 #base_config.use_legacy_renderer = False
 
