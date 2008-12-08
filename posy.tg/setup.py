@@ -18,7 +18,7 @@ setup(
         "posy",
         "TurboGears2",
         "ToscaWidgets >= 0.9.1",
-        "tw.forms",
+        "tw.forms >= 0.9.3",
         "pycryptopp",
     ],
     packages=find_packages(exclude=['ez_setup']),
