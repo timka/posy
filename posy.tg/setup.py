@@ -7,7 +7,7 @@ except ImportError:
 
 setup(
     name='posy.tg',
-    version='0.1',
+    version='0.2',
     author='Timur Izhbulatov',
     author_email='timochka@gmail.com',
     description=('Crossposter application for multiple (mirco-)blogs'
