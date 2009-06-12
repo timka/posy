@@ -3,6 +3,8 @@ development.ini
 setup.cfg
 setup.py
 test.ini
+ez_setup/README.txt
+ez_setup/__init__.py
 posy/__init__.py
 posy.tg.egg-info/PKG-INFO
 posy.tg.egg-info/SOURCES.txt

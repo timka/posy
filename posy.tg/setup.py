@@ -14,12 +14,16 @@ setup(
                  ' and social networks'),
     license='http://www.apache.org/licenses/LICENSE-2.0',
     url='http://code.google.com/p/posy/',
+    dependency_links=[
+        "http://www.turbogears.org/2.0/downloads/current/",
+    ],
     install_requires=[
+        # XXX workaround for weird unsatisfiable zope.interface requirement
+        "zope.interface >= 3.5.1",
         "posy",
-        "TurboGears2",
-        "ToscaWidgets >= 0.9.1",
-        "tw.forms >= 0.9.3",
         "pycryptopp",
+        "TurboGears2",
+        "tw.forms",
     ],
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,

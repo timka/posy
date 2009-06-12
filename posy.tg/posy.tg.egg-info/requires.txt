@@ -1,5 +1,5 @@
+zope.interface >= 3.5.1
 posy
-TurboGears2
-ToscaWidgets >= 0.9.1
-tw.forms
 pycryptopp
+TurboGears2
+tw.forms

@@ -57,3 +57,5 @@ base_config.renderers.append('genshi')
 
 #Configure the base SQLALchemy Setup
 base_config.use_sqlalchemy = False
+
+base_config.lang_session_key = 'lang'
