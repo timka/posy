@@ -99,10 +99,8 @@ class RootController(BaseController):
     @validate(form=langform)
     def lang(self, lang=None):
         redirect_url = pylons.request.referrer or tg.url('/')
-        if not lang:
-            redirect(tg.url(redirect_url))
-        session['lang'] = lang
-        session.save()
+        if lang:
+            tg.i18n.set_lang(lang)
         redirect(tg.url(redirect_url))
 
 
