@@ -8,7 +8,7 @@ The project was started for two reasons:
 Both points are obsolete by now since:
 
 1. I don't use Plurk and LiveJrounal anymore and almost never tweet
-1. I dopped server-side HTML generation in favor of AngularJS + HTTP API
+1. I dropped server-side HTML generation in favor of AngularJS + HTTP API
 
 # posy
 
