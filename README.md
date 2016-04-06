@@ -3,7 +3,7 @@ Posy is not maintained. It's been imported from code.google.com for historical r
 The project was started for two reasons:
 
 1. solve a practical task
-1. play with ToscaWidgets internationalization and other features in TurboGears
+1. play with ToscaWidgets, internationalization and other features in TurboGears 2
 
 Both points are obsolete by now since:
 
